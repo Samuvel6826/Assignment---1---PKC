@@ -28,7 +28,7 @@
             margin: 0;
         }
 
-        legend {
+        h2 {
             padding: 0;
             font-size: 1.2em;
             font-weight: bold;
@@ -36,10 +36,14 @@
             text-align: center;
         }
 
+        hr {
+            margin-bottom: 0;
+        }
+
         h1 {
             font-size: 1.5em;
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
 
         p {
@@ -60,20 +64,20 @@
 
         input[type="radio"] {
             width: auto;
-            margin-right: 10px;
         }
 
         button {
             padding: 10px 20px;
+            font-size: large;
             background-color: #4CAF50;
             color: white;
             border: none;
             cursor: pointer;
             border-radius: 3px;
             display: block;
-            margin: 20px auto;
+            margin: 10px auto;
             width: 100%;
-            max-width: 200px;
+            max-width: auto;
             transition: background-color 0.3s;
         }
 
@@ -83,7 +87,7 @@
 
         footer {
             text-align: center;
-            margin-top: 20px;
+            margin-top: 10px;
         }
 
         footer p {
@@ -104,9 +108,9 @@
 <body>
     <form id="studentForm">
         <fieldset>
-            <legend>Web Designing Assignment - 1</legend>
+            <h2>Web Designing Assignment - 1</h2>
             <hr>
-            <h1>I.B.Sc.CS - Students Record</h1>
+            <h1>I.B.Sc.CS - Students Record to PDF</h1>
             <p>
                 Full Name: <input type="text" name="fname" />
             </p>
@@ -133,7 +137,7 @@
                 Phone Number: <input type="number" name="phone" />
             </p>
             <p>
-                <button type="submit" name="submit" id="submitButton">Submit</button>
+                <button type="submit" name="submit" id="submitButton">Click to download as PDF</button>
             </p>
             <hr>
             <footer>
